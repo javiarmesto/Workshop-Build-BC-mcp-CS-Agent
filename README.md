@@ -1,9 +1,18 @@
 # 🤖 Workshop: Construye un Agente de IA con Business Central MCP
 
+## Recorrido mínimo y límites
+
+Este repo contiene guías por módulos, un portal `index.html` y una solución de referencia; no instala por sí solo un servidor ni un agente. Necesitas tu BC online, Copilot Studio y permisos para configurar la conexión. Empieza por [preparación](modulo-00-preparacion/README.md), configura BC en el módulo 02 y crea/conecta el agente en los módulos 03–04.
+
+Como primera comprobación, descubre herramientas y lee clientes de tu sandbox. Las operaciones de creación/modificación son ejercicios posteriores: requieren habilitación expresa en la configuración MCP y permisos efectivos; no están garantizadas por tener conexión. Registra la consulta y su respuesta real. La documentación oficial consultada el 6 de octubre de 2026 distingue configuración de APIs, descubrimiento dinámico y permisos por operación.
+
+Revisión estática: **6 de octubre de 2026**. No se ha conectado Copilot Studio ni ejecutado el workshop; las versiones, capturas y nombres de herramientas de la edición deben contrastarse con tu entorno.
+
+
 > **Conecta Microsoft Copilot Studio con datos en vivo de Business Central usando Model Context Protocol**
 
 [![Business Central](https://img.shields.io/badge/Business%20Central-v27+-blue)](https://learn.microsoft.com/dynamics365/business-central/)
-[![Copilot Studio](https://img.shields.io/badge/Copilot%20Studio-MCP%20GA-green)](https://copilotstudio.microsoft.com)
+[![Copilot Studio](https://img.shields.io/badge/Copilot%20Studio-MCP-green)](https://copilotstudio.microsoft.com)
 [![MCP](https://img.shields.io/badge/MCP-Protocol-purple)](https://modelcontextprotocol.io/)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
@@ -210,7 +219,7 @@ El agente ayuda al equipo financiero a:
 
 ## ⚠️ Notas Importantes
 
-> **Preview Feature**: El Business Central MCP Server está en Public Preview (disponible desde octubre 2025). Las funcionalidades pueden cambiar antes de General Availability.
+> **Estado del entorno:** la edición del taller toma BC27 como referencia. Comprueba las funciones disponibles en tu BC online y la [configuración oficial de MCP](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/ai/configure-mcp-server). Las herramientas de consulta de datos tienen su propio estado preview; no se asigna un único estado de disponibilidad a todo MCP.
 
 > **Licencias**: Asegúrate de tener las licencias adecuadas:
 > - Business Central (Essential o Premium)
